@@ -33,7 +33,7 @@ export default function HomePage() {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-sky-200 to-white">
       {/* Hero Section */}
       <section className="relative py-20 px-4 md:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -56,10 +56,10 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-sky-400 to-blue-500 rounded-3xl transform rotate-3"></div>
               <Image
-                src="/home.jpg"
+                src="/home2.jpg"
                 alt="DEKOPINWIL Jawa Tengah"
                 width={600}
-                height={500}
+                height={400}
                 className="relative rounded-3xl shadow-2xl"
               />
             </div>
@@ -68,7 +68,7 @@ export default function HomePage() {
       </section>
 
       {/* carousel Section */}
-      <section className="relative py-16 bg-white">
+      <section className="relative py-16 bg-sky-50">
         <div className="max-w-7xl mx-auto px-4">
           <Carousel opts={{ loop: true }}
             plugins={[
@@ -117,7 +117,7 @@ export default function HomePage() {
                     <p className="text-lg text-gray-600">
                       Akses pelatihan terstruktur, e-course interaktif, dan pendampingan ahli melalui Pusat Pelatihan kami.
                     </p>
-                    <Link href="/lms-pelatihan.html">
+                    <Link href="/e-learning">
                       <Button className="bg-sky-600 text-white hover:bg-sky-700">
                         Daftar Pelatihan Sekarang
                         <ArrowRight className="ml-2 h-5 w-5" />
@@ -174,7 +174,7 @@ export default function HomePage() {
 
 
       {/* Services Section */}
-      <section className="py-20 px-4 md:px-6 lg:px-8 bg-sky-50">
+      <section className="py-20 px-4 md:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Profil Singkat</h2>
@@ -184,7 +184,7 @@ export default function HomePage() {
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               DEKOPINWIL Jawa Tengah adalah representasi resmi gerakan koperasi di tingkat provinsi, hadir sebagai perpanjangan tangan Dewan Koperasi Indonesia. Kami adalah wadah strategis yang <strong className="text-sky-600">menggerakkan roda perekonomian berbasis koperasi</strong>, memperkuat solidaritas, kemandirian, dan keberlanjutan di setiap langkah pembangunan ekonomi kerakyatan. Dengan komitmen tinggi terhadap prinsip-prinsip koperasi, kami bertekad menjadi jembatan antara koperasi, masyarakat, dan pemerintah, mendorong lahirnya koperasi modern, inklusif, dan adaptif terhadap perkembangan zaman. Jelajahi Struktur Organisasi kami dan kenali lebih dekat Profil Pimpinan yang berdedikasi.
             </p>
-            <Link href="/news">
+            <Link href="/about">
               <Button
                 variant="outline"
                 className="border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white bg-transparent transition-colors duration-300"
@@ -198,7 +198,7 @@ export default function HomePage() {
             {/* Placeholder untuk gambar atau ilustrasi yang relevan */}
             <div className=" h-96 rounded-lg flex items-center justify-center">
               <Image
-                src="/logo2.png"
+                src="/dekopin-logo.jpeg"
                 alt="Profil DEKOPINWIL"
                 width={400}
                 height={300}
@@ -210,7 +210,7 @@ export default function HomePage() {
       </section>
 
       {/* News Section */}
-      <section className="py-20 px-4 md:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 md:px-6 lg:px-8 bg-sky-50">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-center mb-12">
             <div>
@@ -250,7 +250,7 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-600 mb-4">{item.excerpt}</CardDescription>
-                  
+
                 </CardContent>
               </Card>
             ))}
@@ -269,10 +269,13 @@ export default function HomePage() {
             koperasi Anda menuju kesuksesan yang berkelanjutan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-sky-600 hover:bg-gray-100">
-              Daftar Keanggotaan
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link href='/membership'>
+              <Button size="lg" className="bg-white text-sky-600 hover:bg-gray-100">
+                Daftar Keanggotaan
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
+
             <Button
               size="lg"
               variant="outline"
@@ -309,7 +312,7 @@ export default function HomePage() {
             <p className="text-lg text-gray-900 mb-8">
               <strong>Ketua DEKOPINWIL Jawa Tengah</strong>
             </p>
-            <Link href="/news">
+            <Link href="/about">
               <Button
                 variant="outline"
                 className="border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white bg-transparent transition-colors duration-300 mb-8"

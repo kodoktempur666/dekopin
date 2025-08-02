@@ -48,17 +48,16 @@ export default function Navbar({ className = "" }: { className?: string }) {
 
   return (
     <Disclosure as="header" className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-      {({ open }) => (
-        <>
+      <>
           <div className={`container flex h-16 items-center justify-between px-4 md:px-6 ${className}`}>
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center">
-                <Image src="/logo2.png" alt="Logo" width={60} height={40} />
+              <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                <Image src="/Logo-Koperasi.png" alt="Logo" width={70} height={50} />
               </div>
               <div className="hidden sm:block">
-                <div className="font-bold text-gray-900">DEKOPINWIL</div>
-                <div className="text-sm text-gray-600">Jawa Tengah</div>
+                <div className="font-bold text-gray-900">DEKOPIN</div>
+                <div className="text-sm text-gray-600">Wilayah Jawa Tengah</div>
               </div>
             </Link>
 
@@ -148,7 +147,6 @@ export default function Navbar({ className = "" }: { className?: string }) {
             </div>
           )}
         </>
-      )}
     </Disclosure>
   )
 }

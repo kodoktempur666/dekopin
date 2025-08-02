@@ -16,9 +16,12 @@ const notoSans = Noto_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "DEKOPINWIL Jawa Tengah - Membangun Ekonomi Kerakyatan",
+  title: "DEKOPIN Wilayah Jawa Tengah - Membangun Ekonomi Kerakyatan",
   description:
     "Dewan Koperasi Indonesia Wilayah Jawa Tengah berkomitmen memperkuat peran koperasi sebagai pilar ekonomi kerakyatan melalui pembinaan, pelatihan, dan pengembangan jejaring bisnis yang berkelanjutan.",
+   verification: {
+    google: "ZOFcpp9EgmwMpHJUeBZMe7T9IA9CXTO0GY04h5fRKrw",
+  }
 }
 
 export default function RootLayout({
