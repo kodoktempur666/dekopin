@@ -19,7 +19,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 const page = () => {
-  
+
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [activeTab, setActiveTab] = useState("all")
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -28,12 +28,12 @@ const page = () => {
   const [sortBy] = useState("latest")
 
   const newsCategories = [
-    { id: "all", name: "Semua", count: 6, icon: FileText },
-    { id: "berita", name: "Berita Terbaru", count: 2, icon: BookOpen },
-    { id: "pengumuman", name: "Pengumuman", count: 1, icon: Megaphone },
-    { id: "artikel", name: "Artikel & Opini", count: 1, icon: Users },
-    { id: "galeri", name: "Galeri Media", count: 1, icon: Award },
-    { id: "siaran-pers", name: "Siaran Pers", count: 1, icon: TrendingUp },
+    { id: "all", name: "Semua", count: 4, icon: FileText },
+    { id: "berita", name: "Berita Terbaru", count: 4, icon: BookOpen },
+    { id: "pengumuman", name: "Pengumuman", count: 0, icon: Megaphone },
+    { id: "artikel", name: "Artikel & Opini", count: 0, icon: Users },
+    { id: "galeri", name: "Galeri Media", count: 0, icon: Award },
+    { id: "siaran-pers", name: "Siaran Pers", count: 0, icon: TrendingUp },
   ]
 
   const featuredNews = [
@@ -84,94 +84,52 @@ const page = () => {
   const allNews = [
     {
       id: 1,
-      title: "DEKOPINWIL Jateng Gelar Workshop Legalitas Usaha, Ratusan Koperasi Terbantu",
+      title: "Malam Tirakatan Peringatan Hari Koperasi ke-78 Jawa Tengah Semarak Penuh Warna",
       excerpt:
-        "Workshop ini membekali pengurus koperasi dengan pemahaman mendalam tentang aspek hukum, perizinan, dan tata kelola yang baik, memastikan usaha mereka lebih aman dan berkelanjutan. Acara yang berlangsung selama 3 hari ini dihadiri oleh 300+ pengurus koperasi dari seluruh Jawa Tengah.",
+        "SEMARANG [Berlianmedia]– Malam Tirakatan/Tasyakuran Peringatan Hari Koperasi (Harkop) ke-78 tingkat Provinsi Jawa Tengah berlangsung meriah dan penuh warna, di Gedung Gradika Bhakti Praja, Provinsi Jawa Tengah, Jumat malam (11/7),",
       content:
         "Workshop legalitas usaha yang diselenggarakan DEKOPINWIL Jawa Tengah berhasil memberikan pencerahan kepada ratusan pengurus koperasi...",
       category: "berita",
-      date: "2025-07-15",
-      author: "Tim Hukum DEKOPINWIL",
-      image: "/news.png",
+      date: "2025-07-11",
+      author: "Redaksi",
+      image: "/news1.jpg",
       featured: true,
     },
     {
       id: 2,
-      title: "Koperasi Wanita 'Srikandi Mandiri' Raih Penghargaan Koperasi Inovatif Terbaik 2025",
+      title: "Lapenkop Dekopin Wilayah Jawa Tengah Dilantik, Siap Kawal KDMP",
       excerpt:
-        "Koperasi Srikandi Mandiri diapresiasi atas inovasinya dalam pemasaran produk berbasis digital dan dampak sosialnya terhadap pemberdayaan perempuan desa. Koperasi ini berhasil meningkatkan pendapatan anggota hingga 200% dalam 2 tahun terakhir melalui platform e-commerce.",
+        "SURAKARTA [Berlianmedia]- Siap mengawal jalannya Koperasi Desa/ Kelurahan Merah Putih (KDMP), Lembaga Pendidikan Perkoperasian (Lapenkop) Dewan Koperasi Indonesia Wilayah (Dekopinwil) Provinsi Jawa Tengah secara resmi dilantik di Larisae, Surakarta, Jum’at (25/7).",
       content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
       category: "berita",
-      date: "2025-07-12",
-      author: "Sarah Putri",
-      image: "/news.png",
+      date: "2025-07-25",
+      author: "Abdul S",
+      image: "/news2.jpg",
       featured: true,
     },
     {
-      id: 4,
-      title: "Pendaftaran Program Pendampingan Hukum Tahap II Dibuka!",
+      id: 3,
+      title: "Dekopinwil Jawa Tengah Apresiasi Pengurus Lapenkop Sukses Gelar PPD I",
       excerpt:
-        "DEKOPINWIL Jawa Tengah membuka pendaftaran program pendampingan hukum tahap kedua untuk koperasi yang membutuhkan bantuan dalam aspek legalitas dan tata kelola. Pendaftaran dibuka hingga 31 Agustus 2025 dengan kuota 50 koperasi.",
-      category: "pengumuman",
-      date: "2025-07-20",
-      author: "Tim Hukum",
-      readTime: "2 menit",
-      views: 980,
-      image: "/ann.avif",
+        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Wilayah (Dekopinwil) Provinsi Jawa Tengah, memberikan apresiasi yang tinggi terhadap Lembaga Pendidikan Perkoperasian (Lapenkop) Jawa Tengah, yang telah sukses menggelar Pendidikan Pemandu Dasar I selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
+      category: "berita",
+      date: "2025-08-03",
+      author: "Abdul S",
+      image: "/news3.jpg",
       tags: ["pendaftaran", "hukum", "pendampingan"],
     },
     {
-      id: 5,
-      title: "Jadwal Temu Bisnis Online Sektor Pertanian: Agustus 2025",
+      id: 4,
+      title: "Biaya Pribadi, Dekopinda Kabupaten Tegal Antusias Ikuti PPD I Lapenkop Dekopinwil Jawa Tengah",
       excerpt:
-        "Temu bisnis online khusus sektor pertanian akan diselenggarakan pada 15-16 Agustus 2025. Event ini mempertemukan koperasi pertanian dengan buyer potensial dan mitra strategis untuk ekspansi pasar produk pertanian organik.",
-      category: "pengumuman",
-      date: "2025-07-18",
-      author: "Divisi Pemasaran",
-      readTime: "3 menit",
-      views: 1200,
-      image: "/ann.avif",
-      tags: ["temu-bisnis", "pertanian", "online"],
+        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Tegal sangat antusias, dalam mengikuti Pendidikan Pemandu Dasar (PPD) I tentang perkoperasian, yang digelar oleh Lembaga Pendidikan Perkoperasian (Lapenkop) Dekopinwil Jawa Tengah selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
+      category: "berita",
+      date: "2025-08-03",
+      author: "Abdul S",
+      image: "/news4.jpg",
+      tags: ["pendaftaran", "hukum", "pendampingan"],
     },
-    {
-      id: 6,
-      title: "Masa Depan Koperasi di Era AI: Peluang dan Adaptasi",
-      excerpt:
-        "Bagaimana koperasi dapat memanfaatkan kecerdasan buatan untuk efisiensi operasional dan inovasi produk? Analisis mendalam dari pakar kami mengenai transformasi digital koperasi di era artificial intelligence dan strategi adaptasi yang diperlukan.",
-      category: "artikel",
-      date: "2025-07-08",
-      author: "Dr. Ir. Slamet Riyadi, M.Sc.",
-      readTime: "8 menit",
-      views: 2250,
-      image: "/artic.png",
-      tags: ["ai", "teknologi", "masa-depan", "analisis"],
-    },
-    {
-      id: 7,
-      title: "Galeri: Pelatihan Digital Marketing untuk Koperasi UMKM",
-      excerpt:
-        "Dokumentasi lengkap kegiatan pelatihan digital marketing yang diikuti 150+ pengurus koperasi UMKM. Pelatihan ini memberikan keterampilan praktis dalam pemasaran online, media sosial, dan e-commerce untuk meningkatkan jangkauan pasar.",
-      category: "galeri",
-      date: "2025-07-05",
-      author: "Tim Dokumentasi",
-      readTime: "Galeri Foto",
-      views: 1450,
-      image: "/galery.avif",
-      tags: ["galeri", "pelatihan", "digital-marketing"],
-    },
-    {
-      id: 8,
-      title: "Siaran Pers: DEKOPINWIL Jawa Tengah Apresiasi Dukungan Pemerintah Daerah untuk Koperasi Desa Merah Putih",
-      excerpt:
-        "DEKOPINWIL Jawa Tengah menyampaikan apresiasi tinggi atas dukungan Pemerintah Provinsi Jawa Tengah dalam program Koperasi Desa Merah Putih. Program ini telah berhasil memberdayakan 500+ koperasi desa dengan total omzet mencapai Rp 25 miliar.",
-      category: "siaran-pers",
-      date: "2025-07-10",
-      author: "Humas DEKOPINWIL",
-      readTime: "3 menit",
-      views: 1800,
-      image: "/pers.png",
-      tags: ["siaran-pers", "pemerintah", "koperasi-desa"],
-    },
+
   ]
 
   const filteredNews = allNews.filter((news) => {
@@ -185,7 +143,7 @@ const page = () => {
   const sortedNews = [...filteredNews].sort((a, b) => {
     if (sortBy === "latest") {
       return new Date(b.date).getTime() - new Date(a.date).getTime()
-    } 
+    }
     return 0
   })
 
@@ -247,7 +205,7 @@ const page = () => {
                         <Calendar className="h-4 w-4 mr-1" />
                         {formatDate(news.date)}
                       </div>
-                      
+
                     </div>
                   </div>
                   <CardTitle className="text-xl group-hover:text-sky-600 transition-colors line-clamp-2">
@@ -274,7 +232,7 @@ const page = () => {
         </div>
       </section>
 
-            {/* All News */}
+      {/* All News */}
       <section className="py-20 px-4 md:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-8">
@@ -284,7 +242,7 @@ const page = () => {
                 <Card>
                   <CardHeader>
                     <CardTitle className="text-lg flex items-center">
-                      
+
                       Kategori Berita
                     </CardTitle>
                   </CardHeader>
@@ -293,11 +251,10 @@ const page = () => {
                       <button
                         key={category.id}
                         onClick={() => setActiveTab(category.id)}
-                        className={`w-full flex items-center justify-between p-3 rounded-lg transition-colors ${
-                          activeTab === category.id
+                        className={`w-full flex items-center justify-between p-3 rounded-lg transition-colors ${activeTab === category.id
                             ? "bg-sky-100 text-sky-800 border border-sky-200"
                             : "hover:bg-gray-50 text-gray-700"
-                        }`}
+                          }`}
                       >
                         <div className="flex items-center">
                           <category.icon className="h-4 w-4 mr-2" />
@@ -343,7 +300,7 @@ const page = () => {
                         <div className="flex items-center text-xs text-gray-500 mb-2">
                           <Calendar className="h-3 w-3 mr-1" />
                           {formatDate(news.date)}
-                         
+
                         </div>
                         <CardTitle className="text-lg group-hover:text-sky-600 transition-colors line-clamp-2">
                           {news.title}

@@ -19,6 +19,7 @@ import {
     X,
 } from "lucide-react"
 import Image from "next/image"
+
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card'
@@ -344,6 +345,7 @@ const page = () => {
 
                         className=" text-white  hover:text-white bg-gradient-to-r from-sky-600 to-blue-700 hover:bg-gray-100 text-xl"
                     >
+
                         Daftar Sekarang!
                     </Button>
                 </div>
