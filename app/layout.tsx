@@ -19,9 +19,10 @@ export const metadata: Metadata = {
   title: "DEKOPIN Wilayah Jawa Tengah - Membangun Ekonomi Kerakyatan",
   description:
     "Dewan Koperasi Indonesia Wilayah Jawa Tengah berkomitmen memperkuat peran koperasi sebagai pilar ekonomi kerakyatan melalui pembinaan, pelatihan, dan pengembangan jejaring bisnis yang berkelanjutan.",
-   verification: {
+  verification: {
     google: "ZOFcpp9EgmwMpHJUeBZMe7T9IA9CXTO0GY04h5fRKrw",
-  }
+  },
+  icons: { icon: '/Logo-Koperasi.png' },
 }
 
 export default function RootLayout({
@@ -32,9 +33,9 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body className={poppins.className}>
-        <Navbar className={notoSans.className}/>
+        <Navbar className={notoSans.className} />
         <main>{children}</main>
-        <Footer className={notoSans.className}/>
+        <Footer className={notoSans.className} />
       </body>
     </html>
   )
