@@ -56,7 +56,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-sky-400 to-blue-500 rounded-3xl transform rotate-3"></div>
               <Image
-                src="/home2.jpg"
+                src="/hutri.png"
                 alt="DEKOPINWIL Jawa Tengah"
                 width={600}
                 height={400}
