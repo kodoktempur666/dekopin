@@ -14,18 +14,18 @@ export default function HomePage() {
 
   const news = [
     {
-      title: "Malam Tirakatan Peringatan Hari Koperasi ke-78 Jawa Tengah Semarak Penuh Warna",
-      excerpt: "SEMARANG [Berlianmedia]– Malam Tirakatan/Tasyakuran Peringatan Hari Koperasi (Harkop) ke-78 tingkat Provinsi Jawa Tengah berlangsung meriah dan penuh warna, di Gedung Gradika Bhakti Praja, Provinsi Jawa Tengah, Jumat malam (11/7)",
-      date: "11 Juli 2025",
-      category: "Tasyakuran",
-      image: '/news1.jpg',
+      title: "Biaya Pribadi, Dekopinda Kabupaten Tegal Antusias Ikuti PPD I Lapenkop Dekopinwil Jawa Tengah",
+      excerpt: "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Tegal sangat antusias, dalam mengikuti Pendidikan Pemandu Dasar (PPD) I tentang perkoperasian, yang digelar oleh Lembaga Pendidikan Perkoperasian (Lapenkop) Dekopinwil Jawa Tengah selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
+      date: "2025-08-03",
+      category: "Berita",
+      image: '/news4.jpg',
     },
     {
-      title: "Lapenkop Dekopin Wilayah Jawa Tengah Dilantik, Siap Kawal KDMP",
-      excerpt: "SURAKARTA [Berlianmedia]- Siap mengawal jalannya Koperasi Desa/ Kelurahan Merah Putih (KDMP), Lembaga Pendidikan Perkoperasian (Lapenkop) Dewan Koperasi Indonesia Wilayah (Dekopinwil) Provinsi Jawa Tengah secara resmi dilantik di Larisae, Surakarta, Jum’at (25/7).",
-      date: "25 Juli 2025",
+      title: "Sukses Gelar Raker, Dekopinda Kabupaten Boyolali Siap Dampingi KDKMP di Wilayahnya",
+      excerpt: "SEMARANG [Berlianmedia]- Sukses menggelar Rapat Kerja Daerah (Rakerda), Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Boyolali, menyatakan siap melakukan pendampingan Koperasi Desa/Kelurahan Merah Putih (KDKMP) di wilayahnya.",
+      date: "2025-08-23",
       category: "Event",
-      image: '/news2.jpg',
+      image: '/news5.jpg',
     },
 
   ]

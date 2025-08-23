@@ -28,8 +28,8 @@ const page = () => {
   const [sortBy] = useState("latest")
 
   const newsCategories = [
-    { id: "all", name: "Semua", count: 4, icon: FileText },
-    { id: "berita", name: "Berita Terbaru", count: 4, icon: BookOpen },
+    { id: "all", name: "Semua", count: 3, icon: FileText },
+    { id: "berita", name: "Berita Terbaru", count: 3, icon: BookOpen },
     { id: "pengumuman", name: "Pengumuman", count: 0, icon: Megaphone },
     { id: "artikel", name: "Artikel & Opini", count: 0, icon: Users },
     { id: "galeri", name: "Galeri Media", count: 0, icon: Award },
@@ -38,75 +38,33 @@ const page = () => {
 
   const featuredNews = [
     {
-      id: 1,
-      title: "Malam Tirakatan Peringatan Hari Koperasi ke-78 Jawa Tengah Semarak Penuh Warna",
+      id: 4,
+      title: "Biaya Pribadi, Dekopinda Kabupaten Tegal Antusias Ikuti PPD I Lapenkop Dekopinwil Jawa Tengah",
       excerpt:
-        "SEMARANG [Berlianmedia]– Malam Tirakatan/Tasyakuran Peringatan Hari Koperasi (Harkop) ke-78 tingkat Provinsi Jawa Tengah berlangsung meriah dan penuh warna, di Gedung Gradika Bhakti Praja, Provinsi Jawa Tengah, Jumat malam (11/7),",
-      content:
-        `<p>
-          Acara yang diselenggarakan oleh Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah bekerja sama dengan Dinas Koperasi dan UKM Provinsi Jawa Tengah, menghadirkan berbagai elemen penting dalam dunia perkoperasian.
-        </p>
-        <br/>
-        <p>
-          Hadir dalam kesempatan tersebut, para pelaku gerakan koperasi dari berbagai kabupaten/kota, tokoh-tokoh koperasi, perwakilan instansi pemerintah, akademisi, serta pelaku ekonomi UMKM dan hadir pula anggota Komisi B DPRD Jawa Tengah, M Farchan dari Fraksi Partai Solidaritas Indonesia (PSI).
-        </p>
-        <br/>
-        <p>
-        Semarak malam tirakatan terasa melalui penampilan budaya, pameran produk koperasi, serta penyampaian refleksi dan harapan bagi masa depan gerakan koperasi di Indonesia, khususnya di Jawa Tengah.
-        </p>
-        <p>
-        Dalam sambutannya, Ketua Dekopinwil Jawa Tengah, Andang Wahyu Triyanto, SE, MM menyampaikan, bahwa koperasi harus terus beradaptasi dengan perubahan zaman dan digitalisasi ekonomi.
-        </p>
-        <br/>
-        <p>
-        “Momentum Hari Koperasi ini menjadi ajang refleksi dan konsolidasi gerakan koperasi agar semakin berperan dalam membangun ekonomi rakyat,” ujarnya.
-        </p>`,
+        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Tegal sangat antusias, dalam mengikuti Pendidikan Pemandu Dasar (PPD) I tentang perkoperasian, yang digelar oleh Lembaga Pendidikan Perkoperasian (Lapenkop) Dekopinwil Jawa Tengah selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
+      
       category: "berita",
       date: "2025-07-11",
       author: "Redaksi",
-      image: "/news1.jpg",
+      image: "/news4.jpg",
       featured: true,
     },
     {
-      id: 2,
+      id: 5,
       title: "Lapenkop Dekopin Wilayah Jawa Tengah Dilantik, Siap Kawal KDMP",
       excerpt:
-        "SURAKARTA [Berlianmedia]- Siap mengawal jalannya Koperasi Desa/ Kelurahan Merah Putih (KDMP), Lembaga Pendidikan Perkoperasian (Lapenkop) Dewan Koperasi Indonesia Wilayah (Dekopinwil) Provinsi Jawa Tengah secara resmi dilantik di Larisae, Surakarta, Jum’at (25/7).",
+        "SEMARANG [Berlianmedia]- Sukses menggelar Rapat Kerja Daerah (Rakerda), Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Boyolali, menyatakan siap melakukan pendampingan Koperasi Desa/Kelurahan Merah Putih (KDKMP) di wilayahnya.",
       content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
       category: "berita",
-      date: "2025-07-25",
-      author: "Abdul S",
-      image: "/news2.jpg",
+      date: "2025-08-23",
+      author: "Redaksi",
+      image: "/news5.jpg",
       featured: true,
     },
   ]
 
   const allNews = [
-    {
-      id: 1,
-      title: "Malam Tirakatan Peringatan Hari Koperasi ke-78 Jawa Tengah Semarak Penuh Warna",
-      excerpt:
-        "SEMARANG [Berlianmedia]– Malam Tirakatan/Tasyakuran Peringatan Hari Koperasi (Harkop) ke-78 tingkat Provinsi Jawa Tengah berlangsung meriah dan penuh warna, di Gedung Gradika Bhakti Praja, Provinsi Jawa Tengah, Jumat malam (11/7),",
-      content:
-        "Workshop legalitas usaha yang diselenggarakan DEKOPINWIL Jawa Tengah berhasil memberikan pencerahan kepada ratusan pengurus koperasi...",
-      category: "berita",
-      date: "2025-07-11",
-      author: "Redaksi",
-      image: "/news1.jpg",
-      featured: true,
-    },
-    {
-      id: 2,
-      title: "Lapenkop Dekopin Wilayah Jawa Tengah Dilantik, Siap Kawal KDMP",
-      excerpt:
-        "SURAKARTA [Berlianmedia]- Siap mengawal jalannya Koperasi Desa/ Kelurahan Merah Putih (KDMP), Lembaga Pendidikan Perkoperasian (Lapenkop) Dewan Koperasi Indonesia Wilayah (Dekopinwil) Provinsi Jawa Tengah secara resmi dilantik di Larisae, Surakarta, Jum’at (25/7).",
-      content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
-      category: "berita",
-      date: "2025-07-25",
-      author: "Abdul S",
-      image: "/news2.jpg",
-      featured: true,
-    },
+
     {
       id: 3,
       title: "Dekopinwil Jawa Tengah Apresiasi Pengurus Lapenkop Sukses Gelar PPD I",
@@ -128,6 +86,18 @@ const page = () => {
       author: "Abdul S",
       image: "/news4.jpg",
       tags: ["pendaftaran", "hukum", "pendampingan"],
+    },
+    {
+      id: 5,
+      title: "Lapenkop Dekopin Wilayah Jawa Tengah Dilantik, Siap Kawal KDMP",
+      excerpt:
+        "SEMARANG [Berlianmedia]- Sukses menggelar Rapat Kerja Daerah (Rakerda), Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Boyolali, menyatakan siap melakukan pendampingan Koperasi Desa/Kelurahan Merah Putih (KDKMP) di wilayahnya.",
+      content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
+      category: "berita",
+      date: "2025-08-23",
+      author: "Redaksi",
+      image: "/news5.jpg",
+      featured: true,
     },
 
   ]
