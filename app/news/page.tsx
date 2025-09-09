@@ -28,8 +28,8 @@ const page = () => {
   const [sortBy] = useState("latest")
 
   const newsCategories = [
-    { id: "all", name: "Semua", count: 3, icon: FileText },
-    { id: "berita", name: "Berita Terbaru", count: 3, icon: BookOpen },
+    { id: "all", name: "Semua", count: 4, icon: FileText },
+    { id: "berita", name: "Berita Terbaru", count: 4, icon: BookOpen },
     { id: "pengumuman", name: "Pengumuman", count: 0, icon: Megaphone },
     { id: "artikel", name: "Artikel & Opini", count: 0, icon: Users },
     { id: "galeri", name: "Galeri Media", count: 0, icon: Award },
@@ -38,55 +38,32 @@ const page = () => {
 
   const featuredNews = [
     {
-      id: 4,
-      title: "Biaya Pribadi, Dekopinda Kabupaten Tegal Antusias Ikuti PPD I Lapenkop Dekopinwil Jawa Tengah",
+      id: 7,
+      title: "KPPU Gandeng Dekopinwil Jateng Bahas Percepatan Pembentukan Regulasi Koperasi Desa Merah Putih",
       excerpt:
-        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Tegal sangat antusias, dalam mengikuti Pendidikan Pemandu Dasar (PPD) I tentang perkoperasian, yang digelar oleh Lembaga Pendidikan Perkoperasian (Lapenkop) Dekopinwil Jawa Tengah selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
-      
+        "SEMARANG [Berlianmedia]– Komisi Pengawas Persaingan Usaha (KPPU) menggandeng Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah, untuk berdiskusi bersama-sama membuat kajian kebijakan regulasi Koperasi Desa/Kelurahan Merah Putih (KDKMP) di Hotel Kesambi, Kota Semarang, Kamis (4/9).",
+      content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
       category: "berita",
-      date: "2025-07-11",
-      author: "Redaksi",
-      image: "/news4.jpg",
+      date: "2025-09-04",
+      author: "Abdul S",
+      image: "/news7.jpg",
       featured: true,
     },
     {
-      id: 5,
-      title: "Lapenkop Dekopin Wilayah Jawa Tengah Dilantik, Siap Kawal KDMP",
+      id: 8,
+      title: "KPPU Siap Rekomendasikan Lapenkop Dekopin Menjadi Pendamping KDKMP",
       excerpt:
-        "SEMARANG [Berlianmedia]- Sukses menggelar Rapat Kerja Daerah (Rakerda), Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Boyolali, menyatakan siap melakukan pendampingan Koperasi Desa/Kelurahan Merah Putih (KDKMP) di wilayahnya.",
+        "SEMARANG [Berlianmedia]- Komisi Pengawas Persaingan Usaha (KPPU) siap merekomendasikan Lembaga Pendidikan Perkoperasian (Lapenkop) ke Pemerintah, untuk bisa ikut berpartisipasi dalam program pendidikan perkoperasian Koperasi Desa/Kelurahan Merah Putih.",
       content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
       category: "berita",
-      date: "2025-08-23",
-      author: "Redaksi",
-      image: "/news5.jpg",
+      date: "2025-09-04",
+      author: "Abdul S",
+      image: "/news8.jpg",
       featured: true,
     },
   ]
 
   const allNews = [
-
-    {
-      id: 3,
-      title: "Dekopinwil Jawa Tengah Apresiasi Pengurus Lapenkop Sukses Gelar PPD I",
-      excerpt:
-        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Wilayah (Dekopinwil) Provinsi Jawa Tengah, memberikan apresiasi yang tinggi terhadap Lembaga Pendidikan Perkoperasian (Lapenkop) Jawa Tengah, yang telah sukses menggelar Pendidikan Pemandu Dasar I selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
-      category: "berita",
-      date: "2025-08-03",
-      author: "Abdul S",
-      image: "/news3.jpg",
-      tags: ["pendaftaran", "hukum", "pendampingan"],
-    },
-    {
-      id: 4,
-      title: "Biaya Pribadi, Dekopinda Kabupaten Tegal Antusias Ikuti PPD I Lapenkop Dekopinwil Jawa Tengah",
-      excerpt:
-        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Tegal sangat antusias, dalam mengikuti Pendidikan Pemandu Dasar (PPD) I tentang perkoperasian, yang digelar oleh Lembaga Pendidikan Perkoperasian (Lapenkop) Dekopinwil Jawa Tengah selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
-      category: "berita",
-      date: "2025-08-03",
-      author: "Abdul S",
-      image: "/news4.jpg",
-      tags: ["pendaftaran", "hukum", "pendampingan"],
-    },
     {
       id: 5,
       title: "Lapenkop Dekopin Wilayah Jawa Tengah Dilantik, Siap Kawal KDMP",
@@ -97,6 +74,42 @@ const page = () => {
       date: "2025-08-23",
       author: "Redaksi",
       image: "/news5.jpg",
+      featured: true,
+    },
+    {
+      id: 6,
+      title: "Dekopinwil Jawa Tengah Kembali Gelar Pendidikan Pemandu Perkoperasian",
+      excerpt:
+        "SEMARANG [Berlianmedia]- Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah melalui Lembaga Pendidikan Perkoperasian (Lapenkop), kembali menggelar Pendidikan Pemandu Dasar (PPD) I Perkoperasian di Kota Semarang, selama dua hari, 23-24 Agustus 2025.",
+      content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
+      category: "berita",
+      date: "2025-08-24",
+      author: "Abdul S",
+      image: "/news6.jpg",
+      featured: true,
+    },
+    {
+      id: 7,
+      title: "KPPU Gandeng Dekopinwil Jateng Bahas Percepatan Pembentukan Regulasi Koperasi Desa Merah Putih",
+      excerpt:
+        "SEMARANG [Berlianmedia]– Komisi Pengawas Persaingan Usaha (KPPU) menggandeng Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah, untuk berdiskusi bersama-sama membuat kajian kebijakan regulasi Koperasi Desa/Kelurahan Merah Putih (KDKMP) di Hotel Kesambi, Kota Semarang, Kamis (4/9).",
+      content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
+      category: "berita",
+      date: "2025-09-04",
+      author: "Abdul S",
+      image: "/news7.jpg",
+      featured: true,
+    },
+    {
+      id: 8,
+      title: "KPPU Siap Rekomendasikan Lapenkop Dekopin Menjadi Pendamping KDKMP",
+      excerpt:
+        "SEMARANG [Berlianmedia]- Komisi Pengawas Persaingan Usaha (KPPU) siap merekomendasikan Lembaga Pendidikan Perkoperasian (Lapenkop) ke Pemerintah, untuk bisa ikut berpartisipasi dalam program pendidikan perkoperasian Koperasi Desa/Kelurahan Merah Putih.",
+      content: "Koperasi Wanita Srikandi Mandiri dari Kabupaten Semarang berhasil meraih penghargaan bergengsi...",
+      category: "berita",
+      date: "2025-09-04",
+      author: "Abdul S",
+      image: "/news8.jpg",
       featured: true,
     },
 
@@ -222,8 +235,8 @@ const page = () => {
                         key={category.id}
                         onClick={() => setActiveTab(category.id)}
                         className={`w-full flex items-center justify-between p-3 rounded-lg transition-colors ${activeTab === category.id
-                            ? "bg-sky-100 text-sky-800 border border-sky-200"
-                            : "hover:bg-gray-50 text-gray-700"
+                          ? "bg-sky-100 text-sky-800 border border-sky-200"
+                          : "hover:bg-gray-50 text-gray-700"
                           }`}
                       >
                         <div className="flex items-center">

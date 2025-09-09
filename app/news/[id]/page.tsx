@@ -13,103 +13,6 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
   // Mock data - in real app, fetch based on params.id
   const newsArticles = [
     {
-      id: 3,
-      title: "Dekopinwil Jawa Tengah Apresiasi Pengurus Lapenkop Sukses Gelar PPD I",
-      excerpt:
-        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Wilayah (Dekopinwil) Provinsi Jawa Tengah, memberikan apresiasi yang tinggi terhadap Lembaga Pendidikan Perkoperasian (Lapenkop) Jawa Tengah, yang telah sukses menggelar Pendidikan Pemandu Dasar I selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
-      content: `<p>
-        Apresiasi tersebut disampaikan Pimpinan Wakil Ketua Dekopinwil Jateng, Sudarto, di sela-sela pelaksanaan PPD I Perkoperasian di Hotel Assalamah, Kartosuro, Surakarta, Sabtu malam (2/8).
-        </p>
-        <br/>
-        <p>
-          “Kami sangat mengapresiasi kinerja Pengurus Lapenkop Dekopin, yang telah sukses dan berhasil menyelenggarakan Pendidikan Pemandu Dasar Perkoperasian selama dua hari. Karena baru seminggu yang lalu dilantik oleh Pimpinan Ketua Dekopinwil, langsung sat set berhasil menggelar PPD dengan peserta hampir seratus orang,” ujarnya salut.
-        </p>
-        <br/>
-        <p>
-       Dalam kesempatan itu, disampaikan pula terkait potensi Pemandu Lapenkop dalam melakukan pendampingan terhadap Koperasi Desa Kelurahan Merah Putih (KDLMP) dalam mengelola, sebab Dekopin merupakan lembaga gerakan koperasi satu-satunya di Indonesia yang diakui melalui Undang-undang Perkoperasian dan Peraturan Presiden (Perpres).
-        </p>
-        <br/>
-        <p>
-        “Dekopin ini merupakan organisasi gerakan koperasi satu-satunya yang diakui di Indonesia. Itu tertulis di Undang-undang koperasi maupun di Perpres. Oleh sebab itu, ini merupakan potensi para Pemandu dalam melakukan pendampingan ke koperasi merah putih,” ungkapnya di depan peserta PPD I.
-        </p>
-        <br/>
-
-        <br/>
-        <strong >
-        Peserta Luar Jawa Tengah
-        </strong >
-              <br />
-              <br />
-      <p>
-        Sementara Direktur Lapenkop Dekopinwil Dra. Laili Hidayah Dwi Rini menyampaikan, jumlah peserta yang hadir sebanyak 90 orang dan berasal dari berbagai kota di Jawa Tengah maupun di luar Jawa Tengah.
-      </p>
-      <br />
-      <p>
-        Pesertanya pun berasal dari berbagai kalangan, tidak hanya pelaku koperasi, organisasi gerakan koperasi, ada dari Staf Sekretariat Dewan (DPRD) hingga akademisi yang hadir mengikuti PPD I tersebut.
-      </p>
-      <br />
-      <p>
-        “Peserta tidak hanya dari Jawa Tengah, ada juga dari Jawa Timur, Jakarta dan Yogyakarta. Ada dosen, Profesor, pengurus Dekopinda Salatiga, Kabupaten Tegal dan Dekopin Daerah lain,” terangnya.
-      </p>
-      <br />
-      <p>
-        Diterangkan pula, jika nantinya akan ada lagi PPD I tahap dua, yang rencananya akan digelar di Kota Semarang, sebab masih banyak peserta yang akan ikut tapi kuota peserta sudah penuh.
-      </p>
-      <br />
-      <p>
-        “Kebetulan masih banyak peserta yang mau ikut PPD I, makanya bulan Agustus ini akan kita selenggarakan lagi PPD I tahap dua, kemudian nantinya kita juga akan menggelar PPD tingkat II, sebagai rencana tindak lanjut (RTL) program pendidikan perkoperasian,” ungkap Direktur Lapenkop Dekopinwil Jateng.
-      </p>
-      <br />
-      <p>Caption : Pimpinan Wakil Ketua Dekopinwil Jateng Sudarto, menyampaikan apresiasinya terhadap Pengurus Lapenkop sukses menggelar PPD I selama dua hari Hotel Assalamah, Kartosuro, Surakarta, Sabtu malam (2/8). Foto : Absa
-      </p>
-       `,
-      category: "berita",
-      date: "2025-08-03",
-      author: {
-        name: "Abdul S",
-        avatar: "/placeholder.svg?height=40&width=40",
-        bio: "Tim redaksi DEKOPINWIL Jawa Tengah yang berdedikasi dalam menyajikan informasi terkini seputar dunia koperasi.",
-      },
-      image: "/news3.jpg",
-      tags: ["penghargaan", "nasional", "prestasi", "inovasi"],
-    },
-    {
-      id: 4,
-      title: "Biaya Pribadi, Dekopinda Kabupaten Tegal Antusias Ikuti PPD I Lapenkop Dekopinwil Jawa Tengah",
-      excerpt:
-        "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Tegal sangat antusias, dalam mengikuti Pendidikan Pemandu Dasar (PPD) I tentang perkoperasian, yang digelar oleh Lembaga Pendidikan Perkoperasian (Lapenkop) Dekopinwil Jawa Tengah selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
-      content: `<p>
-        Walaupun, saat mengikuti PPD I tersebut menggunakan dana pribadi jajaran Pengurus, tanpa sponsor ataupun dana hibah dari Pemerintah Kabupaten Tegal.
-        </p>
-        <br/>
-        <p>
-          Hal itu disampaikan Ketua Dekopinda Kabupaten Tegal Juang Kristanto, kepada berlianmedia.com usai mengikuti PPD I Perkoperasian, selama dua hari di Hotel Assalamah, Kartosuro, Surakarta, Minggu (3/8).
-        </p>
-        <br/>
-        <p>
-       “Materi yang disampaikan Pemandu (Fasilitator) sangat bagus. Materi itu untuk penguatan dan peningkatan pemahaman perkoperasian, agar nantinya jajaran Dekopin bisa ikut mengawal kinerja KDLMP di daerah,” jelasnya.
-        </p>
-        <p>
-        Selain itu, Ketua Dekopinda Kabupaten Tegal juga mengaku merasa puas, selain materi-materi Perkoperasian yang disampaikan Pemandu, begitu pula dengan fasilitas yang diberikan oleh panitia penyelenggara.
-        </p>
-        <br/>
-      <p>
-        “Fasilitasnya tidak mengecewakan dan juga sangat bagus. Jadi dengan biaya seperti itu menurut Saya sepadan ya, bahkan relatif murah dengan fasilitas materi perkoperasian dan layanan yang diberikan,” tandas Juang Kristanto.
-      </p>
-      <br />
-      
-       `,
-      category: "berita",
-      date: "2025-08-03",
-      author: {
-        name: "Abdul S",
-        avatar: "/placeholder.svg?height=40&width=40",
-        bio: "Tim redaksi DEKOPINWIL Jawa Tengah yang berdedikasi dalam menyajikan informasi terkini seputar dunia koperasi.",
-      },
-      image: "/news4.jpg",
-      tags: ["penghargaan", "nasional", "prestasi", "inovasi"],
-    },
-        {
       id: 5,
       title: "Sukses Gelar Raker, Dekopinda Kabupaten Boyolali Siap Dampingi KDKMP di Wilayahnya",
       excerpt:
@@ -144,7 +47,125 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
       },
       image: "/news5.jpg",
       tags: ["rapat", "nasional", "prestasi", "inovasi"],
+    },
+    {
+      id: 6,
+      title: "Dekopinwil Jawa Tengah Kembali Gelar Pendidikan Pemandu Perkoperasian",
+      excerpt:
+        "SEMARANG [Berlianmedia]- Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah melalui Lembaga Pendidikan Perkoperasian (Lapenkop), kembali menggelar Pendidikan Pemandu Dasar (PPD) I Perkoperasian di Kota Semarang, selama dua hari, 23-24 Agustus 2025.",
+      content: `<p>
+        “Sebanyak 65 peserta dari berbagai unsur gerakan koperasi dan akademisi mengikuti program ini, mulai dari pengurus, pengawas, pengelola, para dosen hingga kader muda koperasi di Jawa Tengah.
+        </p>
+        <br/>
+        <p>
+          Pimpinan Ketua Dekopinwil Jateng Andang Wahyu Triyanto, yang hadir diwakili oleh Pimpinan Wakil Ketua Setyo Budi Wibowo dalam penutupan PPD mengatakan, bahwa PPD I merupakan langkah strategis untuk mencetak kader pemandu koperasi yang kompeten.
+        </p>
+        <br/>
+        <p>
+       “Pemandu koperasi adalah ujung tombak dalam menggerakkan organisasi agar berjalan sesuai prinsip dan nilai koperasi. Melalui pendidikan ini, kami berharap lahir generasi baru yang mampu mendampingi koperasi agar semakin sehat, mandiri dan berdaya saing,” ujarnya saat penutupan di Hotel Plaza Semarang, Minggu (24/8).
+        </p>
+        <p>
+      Di tempat yang sama, Direktur Lapenkop Jateng Laili Hidayah Dwi Rini menjelaskan, bahwa materi yang diberikan tidak hanya sebatas teori, tetapi juga praktik dan simulasi.
+        </p>
+        <br/>
+      <p>
+        “Peserta dibekali dengan pengetahuan dasar perkoperasian, teknik pemanduan, serta wawasan menghadapi tantangan koperasi di era digital. Dengan begitu, mereka siap menjadi agen perubahan di lingkungannya masing-masing,” katanya.
+      </p>
+      <br />
+      <p>
+      Dekopinwil Jateng melalui Lapenkop, menargetkan PPD I menjadi pijakan awal sebelum peserta melanjutkan ke jenjang pendidikan pemandu tingkat lanjut. Program tersebut juga diharapkan, mampu memperkuat ekosistem koperasi di Jawa Tengah agar lebih adaptif dan inovatif.
+      </p>
+      
+       `,
+      category: "Event",
+      date: "2025-08-24",
+      author: {
+        name: "Abdul S",
+        avatar: "/placeholder.svg?height=40&width=40",
+        bio: "Tim redaksi DEKOPINWIL Jawa Tengah yang berdedikasi dalam menyajikan informasi terkini seputar dunia koperasi.",
+      },
+      image: "/news6.jpg",
+      tags: ["rapat", "event", "prestasi", "inovasi"],
+    },
+    {
+      id: 7,
+      title: "KPPU Gandeng Dekopinwil Jateng Bahas Percepatan Pembentukan Regulasi Koperasi Desa Merah Putih",
+      excerpt:
+        "SEMARANG [Berlianmedia]– Komisi Pengawas Persaingan Usaha (KPPU) menggandeng Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah, untuk berdiskusi bersama-sama membuat kajian kebijakan regulasi Koperasi Desa/Kelurahan Merah Putih (KDKMP) di Hotel Kesambi, Kota Semarang, Kamis (4/9).",
+      content: `<p>
+        Diskusi itu menindaklanjuti Instruksi Presiden Nomor 9 Tahun 2025, yang mengamanatkan percepatan pembentukan koperasi desa sebagai salah satu instrumen penguatan ekonomi kerakyatan. Pemerintah menilai, koperasi dapat menjadi tulang punggung pembangunan ekonomi yang inklusif, terutama di tingkat desa dan kelurahan.
+        </p>
+        <br/>
+        <p>
+         Disampaikan oleh Direktur Kebijakan Persaingan KPPU Leliana Mayasari, tujuan dilakukan diskusi dengan Dekopinwil Jateng itu, untuk menggali informasi dan mengkaji apakah regulasi yang dibuat oleh pemerintah terkait Koperasi Desa/Kelurahan Merah Putih akan berdampak dengan persaingan usaha di masyarakat.
+        </p>
+        <br/>
+        <p>
+       “Karena KPPU memiliki dua tugas utama, selain penegakan hukum persaingan usaha, juga memberikan saran dan pertimbangan terkait kebijakan pemerintah, yang bersinggungan dengan persaingan usaha. Jika nantinya regulasi itu merugikan masyarakat dalam hal persaingan usaha, maka akan kita peringatkan untuk dilakukan evaluasi perubahan,” jelasnya didampingi analisis Kebijakan Persaingan Ades Wiraputri dan Selvi Magdalena.
+        </p>
+        <p>
+      Sementara itu, Ketua Pimpinan Dekopinwil Jateng Andang Wahyu Triyanto, yang diwakili oleh Wakil Ketua Sudarto menyambut baik agenda diskusi tersebut. Menurutnya, gerakan koperasi di Jawa Tengah siap memberikan masukan strategis, agar kebijakan koperasi desa/kelurahan benar-benar tepat sasaran.
+        </p>
+        <br/>
+      <p>
+        “Koperasi desa bukan hanya wadah ekonomi, tetapi juga alat pemberdayaan masyarakat di akar rumput. Kami berharap, kebijakan ini tidak berhenti di tataran regulasi, tetapi bisa diwujudkan dalam bentuk program yang nyata dan bermanfaat,” tegas Sudarto.
+      </p>
+      <br />
+      <p>
+     Hingga saat ini, lanjutnya, Dekopin Wilayah Jawa Tengah melalui Lembaga Pendidikan Perkoperasian (Lapenkop) sudah beberapa kali menggelar Pendidikan Pemandu dan Pendamping Koperasi, sebagai langkah untuk meningkatkan kapasitas KDMP dan KKMP agar lebih visible dan bankable.
+      </p>
+      
+       `,
+      category: "Event",
+      date: "2025-09-04",
+      author: {
+        name: "Abdul S",
+        avatar: "/placeholder.svg?height=40&width=40",
+        bio: "Tim redaksi DEKOPINWIL Jawa Tengah yang berdedikasi dalam menyajikan informasi terkini seputar dunia koperasi.",
+      },
+      image: "/news7.jpg",
+      tags: ["rapat", "event", "prestasi", "inovasi"],
+    },
+    {
+      id: 8,
+      title: "KPPU Siap Rekomendasikan Lapenkop Dekopin Menjadi Pendamping KDKMP",
+      excerpt:
+        "SEMARANG [Berlianmedia]- Komisi Pengawas Persaingan Usaha (KPPU) siap merekomendasikan Lembaga Pendidikan Perkoperasian (Lapenkop) ke Pemerintah, untuk bisa ikut berpartisipasi dalam program pendidikan perkoperasian Koperasi Desa/Kelurahan Merah Putih.",
+      content: `<p>
+        Hal itu disampaikan Direktur Kebijakan Persaingan KPPU Leliana Mayasari, usai diskusi dengan Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah terkait kajian kebijakan regulasi Koperasi Desa/Kelurahan Merah Putih (KDKMP) di Hotel Kesambi, Kota Semarang, Kamis (4/9).
+        </p>
+        <br/>
+        <p>
+        “Informasi yang kami dapatkan dari kementerian koperasi itu, untuk pendampingan dan pelatihan untuk nanti yang akan mendampingi KDKMP. Ini Dekopin ini memang sudah saatnya memang harus masuk, untuk melaksanakan fungsinya membina, mendampingi, apalagi Dekopin sudah ada Lapenkop, jadi nantinya bisa selalu bersinergi dalam melakukan pendampingan,” jelasnya, usai diskusi didampingi analisis Kebijakan Persaingan Ades Wiraputri dan Selvi Magdalena.
+        </p>
+        <br/>
+        <p>
+       Dikatakan pula, bahwa selain memiliki tugas mengawasi persaingan usaha, KPPU juga memiliki mandat memberikan masukan kepada pemerintah, agar kebijakan yang diambil tetap mendukung terciptanya persaingan usaha yang sehat, terutama dalam hal koperasi desa/kelurahan merah putih.
+        </p>
+        <p>
+      “Melalui kajian ini, KPPU berupaya memastikan agar kebijakan regulasi Koperasi Desa/Kelurahan Merah Putih tidak hanya selaras dengan semangat pemberdayaan ekonomi rakyat, tetapi juga memperhatikan prinsip persaingan usaha yang sehat,” ujar Leliana Mayasari, Direktur Kebijakan Persaingan.
+        </p>
+        <br/>
+      <p>
+       Ketua Pimpinan Dekopinwil Jateng Andang Wahyu Triyanto, yang diwakili oleh Wakil Ketua Sudarto menyatakan, bahwa hingga saat ini, Dekopin Wilayah Jawa Tengah melalui Lembaga Pendidikan Perkoperasian (Lapenkop) sudah beberapa kali menggelar Pendidikan Pemandu dan Pendamping Koperasi, sebagai langkah untuk meningkatkan kapasitas KDMP dan KKMP agar lebih visible dan bankable.
+      </p>
+      <br />
+      <p>
+      Ketua Pimpinan Dekopinwil Jateng Andang Wahyu Triyanto, yang diwakili oleh Wakil Ketua Sudarto menyatakan, bahwa hingga saat ini, Dekopin Wilayah Jawa Tengah melalui Lembaga Pendidikan Perkoperasian (Lapenkop) sudah beberapa kali menggelar Pendidikan Pemandu dan Pendamping Koperasi, sebagai langkah untuk meningkatkan kapasitas KDMP dan KKMP agar lebih visible dan bankable.
+      </p>
+      
+       `,
+      category: "Event",
+      date: "2025-09-04",
+      author: {
+        name: "Abdul S",
+        avatar: "/placeholder.svg?height=40&width=40",
+        bio: "Tim redaksi DEKOPINWIL Jawa Tengah yang berdedikasi dalam menyajikan informasi terkini seputar dunia koperasi.",
+      },
+      image: "/news8.jpg",
+      tags: ["rapat", "event", "prestasi", "inovasi"],
     }
+
   ]
 
   // Find the specific article based on the ID from params

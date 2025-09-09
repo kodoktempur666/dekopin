@@ -30,7 +30,7 @@ export default function Navbar({ className = "" }: { className?: string }) {
       items: [
         { title: "Pusat Pelatihan & Pembelajaran Koperasi (LMS)", href: "/e-learning" },
         { title: "E-Course dan Membership", href: "/membership" },
-        { title: "KDMP/KKMP", href: "/kdmp" },
+        { title: "Program Inkubasi Bisnis KDMP / KKMP", href: "/kdmp" },
       ],
     },
     {

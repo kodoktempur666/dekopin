@@ -14,18 +14,17 @@ export default function HomePage() {
 
   const news = [
     {
-      title: "Biaya Pribadi, Dekopinda Kabupaten Tegal Antusias Ikuti PPD I Lapenkop Dekopinwil Jawa Tengah",
-      excerpt: "SURAKARTA [Berlianmedia]- Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Tegal sangat antusias, dalam mengikuti Pendidikan Pemandu Dasar (PPD) I tentang perkoperasian, yang digelar oleh Lembaga Pendidikan Perkoperasian (Lapenkop) Dekopinwil Jawa Tengah selama dua hari di Kartosuro, Surakarta, Sabtu-Minggu (2-3/8).",
-      date: "2025-08-03",
-      category: "Berita",
-      image: '/news4.jpg',
+      title: "Dekopinwil Jawa Tengah Kembali Gelar Pendidikan Pemandu Perkoperasian",
+      excerpt: "SEMARANG [Berlianmedia]- Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah melalui Lembaga Pendidikan Perkoperasian (Lapenkop), kembali menggelar Pendidikan Pemandu Dasar (PPD) I Perkoperasian di Kota Semarang, selama dua hari, 23-24 Agustus 2025.",
+      date: "2025-08-24",
+      category: "Event",
+      image: '/news6.jpg',
     },
     {
-      title: "Sukses Gelar Raker, Dekopinda Kabupaten Boyolali Siap Dampingi KDKMP di Wilayahnya",
-      excerpt: "SEMARANG [Berlianmedia]- Sukses menggelar Rapat Kerja Daerah (Rakerda), Dewan Koperasi Indonesia Daerah (Dekopinda) Kabupaten Boyolali, menyatakan siap melakukan pendampingan Koperasi Desa/Kelurahan Merah Putih (KDKMP) di wilayahnya.",
-      date: "2025-08-23",
+      title: "SEMARANG [Berlianmedia]– Komisi Pengawas Persaingan Usaha (KPPU) menggandeng Dewan Koperasi Indonesia Wilayah (Dekopinwil) Jawa Tengah, untuk berdiskusi bersama-sama membuat kajian kebijakan regulasi Koperasi Desa/Kelurahan Merah Putih (KDKMP) di Hotel Kesambi, Kota Semarang, Kamis (4/9).",
+      date: "2025-09-04",
       category: "Event",
-      image: '/news5.jpg',
+      image: '/news7.jpg',
     },
 
   ]
@@ -56,7 +55,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-sky-400 to-blue-500 rounded-3xl transform rotate-3"></div>
               <Image
-                src="/hutri.png"
+                src="/joko.jpg"
                 alt="DEKOPINWIL Jawa Tengah"
                 width={600}
                 height={400}
