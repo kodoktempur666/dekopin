@@ -928,7 +928,7 @@ const page = () => {
                         >
                             <Button
                                 size="lg"
-                                className="bg-green-500 text-white hover:bg-gray-100"
+                                className="bg-green-500 text-white hover:bg-green-400"
                             >
                                 <Download />
                                 Download Proposal
