@@ -25,12 +25,13 @@ export default function Navbar({ className = "" }: { className?: string }) {
       href: "/news",
     },
     {
-      title: "Layanan",
+      title: "Pendampingan koperasi",
       href: "/services",
       items: [
-        { title: "Pusat Pelatihan & Pembelajaran Koperasi (LMS)", href: "/e-learning" },
-        { title: "E-Course dan Membership", href: "/membership" },
-        { title: "Program Inkubasi Bisnis KDMP / KKMP", href: "/kdmp" },
+        // { title: "Pusat Pelatihan & Pembelajaran Koperasi (LMS)", href: "/e-learning" },
+        // { title: "E-Course dan Membership", href: "/membership" },
+        { title: "Program Inkubasi Bisnis KDMP", href: "/kdmp" },
+        { title: "Program Inkubasi Bisnis KKMP", href: "/kdmp" },
       ],
     },
     {

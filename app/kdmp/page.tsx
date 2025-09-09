@@ -419,34 +419,34 @@ const page = () => {
 
                             <ul className="list-disc pl-5 mt-10 space-y-2">
                                 <li >
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Audit keuangan desa 3 tahun
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Survey potensi ekonomi mendalam
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Assessment kapasitas pengurus
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Market research komprehensif
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Workshop pemilihan gerai prioritas
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
@@ -482,34 +482,34 @@ const page = () => {
                             {/* <strong>Waktu: Bulan 4-6</strong> */}
                             <ul className="list-disc pl-5 mt-10 space-y-2">
                                 <li >
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Market analysis detail per gerai
                                     </p>
                                     <span className="block w-20 h-1 bg-yellow-600 mt-3"></span>
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Kompetitor benchmarking
                                     </p>
                                     <span className="block w-20 h-1 bg-yellow-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Financial modeling scenarios
                                     </p>
                                     <span className="block w-20 h-1 bg-yellow-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Risk analysis & mitigation
                                     </p>
                                     <span className="block w-20 h-1 bg-yellow-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Compilation proposal BRI
                                     </p>
                                     <span className="block w-20 h-1 bg-yellow-600 mt-3"></span>
@@ -567,34 +567,34 @@ const page = () => {
                             {/* <strong>Waktu: Bulan 7-12</strong> */}
                             <ul className="list-disc pl-5 mt-10 space-y-2">
                                 <li >
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Sosialisasi ke pengurus desa
                                     </p>
                                     <span className="block w-20 h-1 bg-blue-600 mt-3"></span>
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Preparation materials Musdes
                                     </p>
                                     <span className="block w-20 h-1 bg-blue-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Stakeholder alignment
                                     </p>
                                     <span className="block w-20 h-1 bg-blue-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Facilitation Musyawarah Desa
                                     </p>
                                     <span className="block w-20 h-1 bg-blue-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Documentation & follow-up
                                     </p>
                                     <span className="block w-20 h-1 bg-blue-600 mt-3"></span>
@@ -628,34 +628,34 @@ const page = () => {
                             {/* <strong>Waktu: Bulan 7-12</strong> */}
                             <ul className="list-disc pl-5 mt-10 space-y-2">
                                 <li >
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Final document quality control
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Bank submission dengan pendampingan
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         Presentation coaching
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
-                                        SOP development operasiona
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
+                                        SOP development operasional
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
                                 </li>
                                 <li>
-                                    <p className="text-xs sm:text-sm md:text-2xl font-bold">
+                                    <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                         System setup & launch strategy
                                     </p>
                                     <span className="block w-20 h-1 bg-green-600 mt-3"></span>
