@@ -40,15 +40,21 @@ export default function Footer({ className = "" }: { className?: string }) {
             </div>
           </div>
 
-         
+
           {/* Contact & Newsletter */}
           <div className="space-y-4">
             <h3 className="font-semibold text-lg">Kontak</h3>
             <div className="space-y-3">
-              <div className="flex items-center space-x-3 text-sm text-gray-200">
-                <MapPin className="h-4 w-4 flex-shrink-0" />
-                <span>Jl. Pemuda No. 142, Semarang, Jawa Tengah</span>
+              <div className="flex items-start gap-3 text-sm text-gray-200">
+                <MapPin className="h-4 w-4 flex-shrink-0 mt-1" />
+                <div className="flex flex-col">
+                  <span>Sekretariat:</span>
+                  <span>Gedung Merah Putih</span>
+                  <span>DPRD Provinsi Jawa Tengah</span>
+                  <span>Jl. Pahlawan No. 09, Kota Semarang</span>
+                </div>
               </div>
+
               <div className="flex items-center space-x-3 text-sm text-gray-200">
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 <span>(024) 3564789</span>
@@ -59,7 +65,7 @@ export default function Footer({ className = "" }: { className?: string }) {
               </div>
             </div>
 
-            
+
           </div>
         </div>
 

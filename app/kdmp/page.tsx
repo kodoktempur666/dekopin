@@ -16,13 +16,13 @@ const page = () => {
         "Networking dengan praktisi & bank",
         "Tools siap pakai",
         "Dukungan berkelanjutan",
-        "Peluang pendanaan langsung ke BRI",
+        "Peluang pendanaan langsung ke bank",
     ]
 
     const fasilitas = [
         "Modul regulasi KDMP (hard & soft copy)",
         "Template proposal bisnis",
-        "Checklist & contoh proposal lolos BRI",
+        "Checklist & contoh proposal lolos bank",
         "Video tutorial & konsultasi follow-up",
         "Sertifikat resmi peserta",
         "Konsumsi full selama acara",
@@ -59,7 +59,7 @@ const page = () => {
             iconColor: "text-pink-600"
         },
         {
-            title: "Prosedur & penilaian kredit BRI",
+            title: "Prosedur & penilaian kredit bank",
             icon: CreditCard,
             bgColor: "bg-gradient-to-br from-amber-100 to-amber-200",
             borderColor: "border-amber-300",
@@ -139,20 +139,20 @@ const page = () => {
                                         <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                             Otoritas persetujuan kredit KDMP
                                         </p>
-                                        <span className="block w-20 h-1 bg-green-600 mt-3"></span>
+                                        <span className="block w-20 h-1 bg-sky-600 mt-3"></span>
                                     </li>
                                     <li>
                                         <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                             Wajib melakukan kajian proposal bisnis (Permendes 10/2025)
                                         </p>
-                                        <span className="block w-20 h-1 bg-green-600 mt-3"></span>
+                                        <span className="block w-20 h-1 bg-sky-600 mt-3"></span>
 
                                     </li>
                                     <li>
                                         <p className="text-lg sm:text-lg md:text-2xl font-bold">
                                             Penanggung jawab keberlanjutan ekonomi desa
                                         </p>
-                                        <span className="block w-20 h-1 bg-green-600 mt-3"></span>
+                                        <span className="block w-20 h-1 bg-sky-600 mt-3"></span>
 
                                     </li>
 
@@ -169,20 +169,21 @@ const page = () => {
                                 <ul className="list-disc pl-5 mt-10 space-y-2">
                                     <li >
                                         <p className="text-lg text-left sm:text-lg md:text-2xl font-bold">
-                                            Otoritas persetujuan kredit KDMP
+                                            Penyusun proposal bisnis sesuai standar Bank
                                         </p>
                                         <span className="block w-20 h-1 bg-green-600 mt-3"></span>
                                     </li>
                                     <li>
                                         <p className="text-lg text-left sm:text-lg md:text-2xl font-bold">
-                                            Wajib melakukan kajian proposal bisnis (Permendes 10/2025)
+                                            Penanggung jawab keuangan & pelaporan
+
                                         </p>
                                         <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
                                     </li>
                                     <li>
                                         <p className="text-lg text-left sm:text-lg md:text-2xl font-bold">
-                                            Penanggung jawab keberlanjutan ekonomi desa
+                                            Penghubung utama dengan anggota & stakeholder
                                         </p>
                                         <span className="block w-20 h-1 bg-green-600 mt-3"></span>
 
@@ -332,7 +333,7 @@ const page = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center  text-base sm:text-lg md:text-xl text-sky-100">
+                        {/* <div className="flex items-center  text-base sm:text-lg md:text-xl text-sky-100">
                             <div className="w-10 flex mr-3 justify-center flex-shrink-0">
                                 <CircleDivideIcon className="h-8 w-8 text-green-400 font-bold stroke-[2.5]" />
                             </div>
@@ -340,7 +341,7 @@ const page = () => {
                                 <span className="font-semibold">Investasi:</span>{" "}
                                 Rp 500.000 / Peserta
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
 

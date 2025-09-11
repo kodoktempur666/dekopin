@@ -405,7 +405,7 @@ const page = () => {
               </div>
             </div>
 
-            <div className="flex items-center  text-base sm:text-lg md:text-xl text-sky-100">
+            {/* <div className="flex items-center  text-base sm:text-lg md:text-xl text-sky-100">
               <div className="w-10 flex mr-3 justify-center flex-shrink-0">
                 <CircleDivideIcon className="h-8 w-8 text-green-400 font-bold stroke-[2.5]" />
               </div>
@@ -413,7 +413,7 @@ const page = () => {
                 <span className="font-semibold">Investasi:</span>{" "}
                 Rp 500.000 / Peserta
               </div>
-            </div>
+            </div> */}
           </div>
 
 
